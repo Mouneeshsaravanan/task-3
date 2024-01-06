@@ -1,0 +1,64 @@
+/* src/components/Home.css */
+.home {
+  text-align: center;
+  /* padding: 20px; */
+}
+
+.hero-section {
+  /* background-image: url('hero-background.jpg'); */
+  background-size: cover;
+  background-position: center;
+  color: white;
+  padding: 100px;
+  margin-bottom: 20px;
+}
+
+.hero-section h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.hero-section p {
+  font-size: 1.2rem;
+  margin-bottom: 40px;
+}
+
+.shop-now-btn {
+  background-color: #4caf50;
+  color: white;
+  padding: 15px 30px;
+  font-size: 1.2rem;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.shop-now-btn:hover {
+  background-color: #45a049;
+}
+
+.featured-products h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.product-list {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.product-card {
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin: 20px;
+  text-align: center;
+  width: 250px;
+}
+
+.product-card img {
+  width: 100%;
+  max-height: 150px;
+  object-fit: cover;
+  margin-bottom: 10px;
+}

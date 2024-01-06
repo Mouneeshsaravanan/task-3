@@ -1,0 +1,30 @@
+.products {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(148, 168, 206);
+}
+
+.products_card {
+    height: 20.3rem;
+    width: 20%;
+    border: 2px solid black;
+    margin: 50px;
+}
+
+.products_img {
+    margin-left: 3.0rem;
+    margin-top: 1.5rem;
+}
+
+.product_name {
+    font-family: Segoe UI;
+    font-size: 1.2em;
+    margin: 25px;
+}
+
+.product_price {
+    font-family: Segoe UI;
+    font-size: 1.1em;
+    margin: 25px;
+}
